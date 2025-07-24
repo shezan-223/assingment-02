@@ -29,7 +29,7 @@
      align-items: center;
 
 }
-ul{
+.nav-links{
     display: flex;
     gap: 48px; 
     list-style: none;}
@@ -49,7 +49,7 @@ a{
     margin-top: 7.5rem;
     display: flex;
     
-     height: 28.8125rem; 
+     max-height: 28.8125rem; 
      /* border: 1px solid tomato; */
     
 }
@@ -89,12 +89,14 @@ a{
  .main-text-description{
        font-size:1.375rem ;
     color: rgba(0, 0, 0, 0.5); 
+    max-width: 888px;
+   margin: 0 auto;
 
  }
 /* MAIN-CARD STYLING */
 .main-card{
-    width: 270px; height: 48px; 
-    
+    width: 270px; 
+
 }
 .main-card img{
     height: 323px; width: 100%;
@@ -105,12 +107,14 @@ a{
 
 .lily{ text-align: center; 
     font-size: 22px;
+    margin-top: 30px;
 
 }
 .usd{
  text-align: center; 
     font-size: 22px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 
@@ -118,20 +122,61 @@ a{
 
 .btn{
     height: 50px ; width: 100%;
+    margin-top: 20px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    font-size: 16px; font-weight: 500;
+
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top:49px ; 
+    
 }
 
+/* challange-part */
+.challange{
+    margin-top: 210px;
+    width: 1140px; height: 597px;
+    
+    display: flex;
 
+}
 
+.c-left{
+    display: flex; position: relative;
+}
+.badge img{
+    width: 286px; height: 286px; 
+    position: absolute;
+    top: -25%;
+    left: 65%;
+   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+}
+.store{
+    width: 540px; height: 597px;
+}
+.c-right{
+    padding-left:60px ;
+    margin: 100px 0;
+     width: 540px; height: 521px;
+    
+}
+.c-right-head{
+    font-size: 50px;
+    font-weight: bold;
+    width: 540px; height: 137px;
 
-
-
-
-
-
-
-
-
-
+}
+.c-right-description li{
+    color: #8987A1;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
 
 
 
@@ -143,10 +188,11 @@ a{
     .media{
         display:none;
     }
-    .comtain{
-        max-width: 360px; 
-        padding: 0px 20px 0px 20px;
-    }
+ .navbar{
+    margin: 0 auto;
+    width: 361px;
+    
+ }   
     
 .logo{
      padding-left: 20px; 
@@ -158,14 +204,16 @@ ul{
 }
 .banner{
     flex-direction: column-reverse;
-    margin-top: 28px;
-    
+    /* margin-top: 28px; */
+   margin: 28px auto; 
+   width:361px ;
 
 }
 .banner-right img{
     padding-top:10px ;
-    height:auto; width: 393.18px;
-    padding-right:0px;
+    height:auto; width: 370px;
+    
+
 }
 .banner-left{
       width: 361px; 
@@ -184,7 +232,45 @@ ul{
     padding: 0px 17px 0px 16px;
 
 }
+/* card section  */
+.card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+      gap: 5px;  
+  width: 362px;
+   margin: 0 auto;
    
 
+
+  
+}
+.main-text{
+    text-align: center;
+    padding-top: 0;
+}
+.main-text-title{ margin-bottom:16px ;
+    font-size:24px ;
+    font-family: 700;
+
+}
+.main-text-description{
+       font-size:14px ;
+    color: rgba(0, 0, 0, 0.5); 
+    max-width: 336px;
+   margin-bottom: 10px;}
+
+.main-card{
+    width:180px;  
+    margin: 0 auto;
     
+}
+.main-card img{
+    width: 100%;
+}
+
+
+
+
+
+
 }
