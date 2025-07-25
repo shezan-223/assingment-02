@@ -392,6 +392,35 @@ input{
 
 
 @media screen and (max-width: 576px) {
+
+.footer-first{
+    width: 417px; height: 276px;
+    margin: 100px auto;
+    
+
+}
+.footer-title{
+    font-size: 30px; 
+    font-weight: bold;
+    padding-top: 70px;}
+
+input{
+     height: 50px; width:218px  ; 
+     margin-top:23px ;
+     border: 0;
+}
+
+.btn-footer{
+    width: 103px; height: 50px;
+    color: #ffffff;
+    background-color: #E95A08;
+    border: none;position: relative; z-index: 1;
+} 
+footer{
+    width: 417px;
+}
+
+
     .media{
         display:none;
     }
