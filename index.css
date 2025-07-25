@@ -325,6 +325,7 @@ margin-left: 27px;
     color: rgb(255, 255, 255);
       position: relative;
       margin-top: 15px;
+      z-index: 1;
 }
 .deals-pic-right ::before{
     position: absolute;
@@ -339,9 +340,54 @@ margin-left: 27px;
    border-radius:22px ;
    background-repeat: no-repeat;
 }
+/* footer-first styling  */
+.footer-first{
+    text-align: center;
+    margin-top:120px ;
+    color: #ffffff;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+position: relative;
+z-index: 1;
+height: 533px;
+}
+
+.footer-first::before{
+      position: absolute;
+    content:"" ;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url(./assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+ background-color: rgba(0, 0, 0, 0.1); /* 0.5 = 50% black */
+  background-blend-mode: darken;
+   z-index: -1;
+   
+   background-repeat: no-repeat;
+}
 
 
 
+
+.footer-title{
+    font-size: 50px; 
+    font-weight: bold;
+    position: relative; z-index: 1;
+    padding-top: 199px;
+}
+input{
+     height: 50px; width:644px  ;position: relative; z-index: 1;
+     margin-top:23px ;
+     border: 0;
+}
+.btn-footer{
+    width: 186px; height: 50px;
+    color: #ffffff;
+    background-color: #E95A08;
+    border: none;position: relative; z-index: 1;
+} 
 
 
 
