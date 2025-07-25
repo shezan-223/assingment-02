@@ -388,7 +388,49 @@ input{
     background-color: #E95A08;
     border: none;position: relative; z-index: 1;
 } 
+/* footer-last styling */
+.footer-last{
 
+border: 1px solid tomato;
+height: 348px;
+ display: flex; 
+gap: 100px;
+margin-top: 50px;
+}
+
+.section-left{
+    width: 359px; height: 300px;
+}
+.last-description{
+    color: #8987A1;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.link1{
+    display: grid;
+    gap: 30px;
+    margin-top: 50px;
+    
+    height: 248px;
+  }
+    .link2{
+        display: grid; margin-left: 110px; margin-top: 50px;
+        height: 248px;
+        gap: 30px;
+    }
+    .section-right{
+        display: flex;
+       
+    }
+.icon{
+    width:400px ; height:36px ;
+    display: flex;
+    gap: 20px;
+    justify-content: center; align-items: center;
+    padding-top: 60px; padding-left: 110px;
+    
+}
 
 
 @media screen and (max-width: 576px) {
